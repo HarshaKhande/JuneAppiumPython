@@ -16,11 +16,7 @@ desired_caps = dict(
 
 )
 
-appium_service = AppiumService()
-appium_service.start()
 
-print(appium_service.is_running)
-print(appium_service.is_listening)
 
 
 # bind these caps to uiautomator2 options
@@ -41,7 +37,6 @@ time.sleep(3)
 
 
 
-appium_service.stop
 
 
 
