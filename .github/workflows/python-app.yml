@@ -15,12 +15,6 @@ jobs:
         image: appium/appium
         ports:
           - 4723:4723
-        options: >-
-          --health-cmd="curl --fail http://localhost:4723/wd/hub/status || exit 1"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
-
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
