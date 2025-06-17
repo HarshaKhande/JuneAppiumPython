@@ -1,0 +1,6 @@
+2025-06-14 15:13:51,802 - generatinglogs.py:[6] - [INFO] - This is our first log
+2025-06-14 15:15:58,414 - generatinglogs.py:[8] - [INFO] - This is our first log
+2025-06-14 15:15:58,415 - generatinglogs.py:[13] - [INFO] - This is the new log
+2025-06-14 15:16:25,846 - generatinglogs.py:[8] - [INFO] - This is our first log
+2025-06-14 15:16:25,846 - generatinglogs.py:[13] - [INFO] - This is the new log
+2025-06-14 15:16:25,846 - generatinglogs.py:[14] - [ERROR] - This is a error message
