@@ -9,7 +9,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 desired_caps = dict(
 
 
-    deviceName='ca1f79ac',
+    deviceName='emulator-5554',
     platformName='Android',
     app = "/Appium/ApiDemos-debug.apk",
     automationName = 'UIAutomator2'
