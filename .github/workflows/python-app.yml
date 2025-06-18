@@ -52,6 +52,5 @@ jobs:
             appium driver list --installed
             appium --log appium.log &
             sleep 10 # Give Appium server time to start
-            run: |
             pytest Appium/TestCheckboxRadio.py
     
