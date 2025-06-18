@@ -11,14 +11,10 @@ desired_caps = dict(
 
     deviceName='ca1f79ac',
     platformName='Android',
-    app = "C://Users//Harsha Patil//Documents//Appium//ApiDemos-debug.apk",
+    app = "/Appium/ApiDemos-debug.apk",
     automationName = 'UIAutomator2'
 
 )
-
-
-
-
 # bind these caps to uiautomator2 options
 
 capabilities_options = UiAutomator2Options().load_capabilities(desired_caps)
